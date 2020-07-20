@@ -4,12 +4,4 @@ metadata:
   name: prwebapp-config
 data:
   config.json: |
-    {
-      "DbOptions": {
-        "SQLIP": "192.168.7.70",
-        "SQLUsername": "sa",
-        "SQLPassword": "123",
-        "RedisIP": "redis",
-        "RedisPassword": "prPassword"
-      }
-    }
+{{ .Files.Get "config.json" | indent 4}}
