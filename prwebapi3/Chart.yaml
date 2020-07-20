@@ -1,4 +1,4 @@
-name: pr-web-api3
+name: prwebapi
 description: Deploy a PrWebApi pod
 version: 0.1.0
 home: https://k8s.io/helm
