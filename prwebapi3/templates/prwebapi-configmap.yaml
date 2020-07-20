@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: ConfigMap
 metadata:
-  name: app
+  name: prwebapp-config
 data:
   config.json: |
     {
