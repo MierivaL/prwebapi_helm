@@ -1,5 +1,1 @@
-replicaCount: 1
-
-image:
-  repository: mierival/mierival:pr-web-api3
-  pullPolicy: Always
+Name: pr-web-api3
