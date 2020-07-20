@@ -4,7 +4,6 @@ metadata:
   annotations:
     field.cattle.io/targetWorkloadIds: '["deployment:{{ .Release.Namespace }}:prwebapi"]'
   name: prwebapi
-  namespace: default
   labels:
     app: prwebapi
     run: prwebapi
