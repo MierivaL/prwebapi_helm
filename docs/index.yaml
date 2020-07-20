@@ -3,9 +3,9 @@ entries:
   prwebapi:
   - apiVersion: v1
     appVersion: 1.0.0
-    created: "2020-07-20T07:43:18.6845641+03:00"
+    created: "2020-07-20T07:47:01.7860674+03:00"
     description: Deploy a PrWebApi pod
-    digest: c9ae878f7b924e85e9bbb3f6fbdc095cce8a93ef4818dbd08cba281b0973b9de
+    digest: b77136e3c69fa506bbad07da70170dc0a119889f922f0f963bdd393fe6ff4a8d
     home: https://k8s.io/helm
     name: prwebapi
     sources:
@@ -13,4 +13,4 @@ entries:
     urls:
     - https://mierival.github.io/prwebapi_helm/prwebapi-1.0.0.tgz
     version: 1.0.0
-generated: "2020-07-20T07:43:18.6825642+03:00"
+generated: "2020-07-20T07:47:01.7840642+03:00"
