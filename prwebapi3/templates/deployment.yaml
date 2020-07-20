@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: prwebapi
+  namespace: default
+  labels:
+    app: prwebapi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: prwebapp
+  template:
+    metadata:
+      labels:
+        app: prwebapp
+    spec:
+      containers:
+      - name: pr-web-api3
+        imagePullPolicy: Always
+        image: mierival/mierival:pr-web-api3
+        ports:
+        - containerPort: 80
+          hostPort: 5555
+          name: 80tcp5555
+          protocol: TCP
+        volumeMounts:
+        - name: prwebvol-config
+          mountPath: /app/config.json
+          subPath: config.json
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      volumes:
+      - configMap:
+          defaultMode: 256
+          items:
+          - key: config.json
+            path: config.json
+          name: prwebapp-config
+          optional: false
+        name: prwebvol-config
