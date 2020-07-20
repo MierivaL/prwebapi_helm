@@ -2,7 +2,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: prwebapi
-  namespace: default
   labels:
     app: prwebapi
 spec:
