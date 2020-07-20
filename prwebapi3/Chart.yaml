@@ -1,6 +1,6 @@
-apiVersion: apps/v1
 name: pr-web-api3
-description: A Helm chart for Kubernetes
-type: application
+description: Deploy a PrWebApi pod
 version: 0.1.0
-appVersion: 1.16.0
+home: https://k8s.io/helm
+sources:
+  - https://github.com/kubernetes/helm
