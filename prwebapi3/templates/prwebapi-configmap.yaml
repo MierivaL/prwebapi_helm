@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app
+data:
+  config.json: |
+    {
+      "DbOptions": {
+        "SQLIP": "192.168.7.70",
+        "SQLUsername": "sa",
+        "SQLPassword": "123",
+        "RedisIP": "redis",
+        "RedisPassword": "prPassword"
+      }
+    }
