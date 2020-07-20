@@ -1,6 +1,7 @@
 name: prwebapi
 description: Deploy a PrWebApi pod
-version: 0.1.0
+version: 1.0.0
+appVersion: 1.0.0
 home: https://k8s.io/helm
 sources:
   - https://github.com/kubernetes/helm

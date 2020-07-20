@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   alpine:
   - apiVersion: v1
-    created: "2020-07-20T06:45:48.478055+03:00"
+    created: "2020-07-20T06:57:25.641657+03:00"
     description: Deploy a basic Alpine Linux pod
     digest: f44f733d69008e86c3989d3b094a5e6151d168921a09eda61c0897472e2f0399
     home: https://k8s.io/helm
@@ -10,11 +10,11 @@ entries:
     sources:
     - https://github.com/kubernetes/helm
     urls:
-    - https://technosophos.github.com/tscharts/alpine-0.3.0.tgz
+    - https://mierival.github.io/prwebapi_helm/alpine-0.3.0.tgz
     version: 0.3.0
   pr-web-api3:
   - apiVersion: v1
-    created: "2020-07-20T06:45:48.4790555+03:00"
+    created: "2020-07-20T06:57:25.642657+03:00"
     description: Deploy a PrWebApi pod
     digest: 5ee08b533e0fccf8e0e7c3cb01dd725b9143a942013f552706a7be751080876a
     home: https://k8s.io/helm
@@ -22,18 +22,30 @@ entries:
     sources:
     - https://github.com/kubernetes/helm
     urls:
-    - https://technosophos.github.com/tscharts/pr-web-api3-0.1.0.tgz
+    - https://mierival.github.io/prwebapi_helm/pr-web-api3-0.1.0.tgz
     version: 0.1.0
   prwebapi:
   - apiVersion: v1
-    created: "2020-07-20T06:45:48.4790555+03:00"
+    appVersion: 1.0.0
+    created: "2020-07-20T06:57:25.6446571+03:00"
     description: Deploy a PrWebApi pod
-    digest: ba28a9d5f796c115c31190c37d36485737c52b311de2978c6497833759806c11
+    digest: ebfbba7888d2b9101117472ff7821f292ad796054b47cdf9f16589a1a6918c25
     home: https://k8s.io/helm
     name: prwebapi
     sources:
     - https://github.com/kubernetes/helm
     urls:
-    - https://technosophos.github.com/tscharts/prwebapi-0.1.0.tgz
+    - https://mierival.github.io/prwebapi_helm/prwebapi-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v1
+    created: "2020-07-20T06:57:25.6436561+03:00"
+    description: Deploy a PrWebApi pod
+    digest: 6b874dabecec1b54cd30c9dba16da5a3e24901583a36d442d7767f65ea220e4a
+    home: https://k8s.io/helm
+    name: prwebapi
+    sources:
+    - https://github.com/kubernetes/helm
+    urls:
+    - https://mierival.github.io/prwebapi_helm/prwebapi-0.1.0.tgz
     version: 0.1.0
-generated: "2020-07-20T06:45:48.4760563+03:00"
+generated: "2020-07-20T06:57:25.6406562+03:00"
