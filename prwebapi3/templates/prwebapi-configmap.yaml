@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: prwebapp-config
 data:
-  config.json: |
-{{ .Files.Get "config.json" | indent 4}}
+  config.json: |-
+{{ .Files.Get "config.json" | indent 4 }}
